@@ -1,0 +1,3 @@
+cryptotool aes encrypt  -k key.bin -i input.txt -o enc.bin
+cryptotool aes decrypt  -k key.bin -i enc.bin   -o dec.txt
+cryptotool aes gen-key  -o key.bin

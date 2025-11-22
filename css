@@ -1,0 +1,3 @@
+cryptotool ecc gen-key -p ecc_pub.pem -s ecc_priv.pem
+cryptotool ecc sign     -s ecc_priv.pem -i doc.txt -o sig.bin
+cryptotool ecc verify   -p ecc_pub.pem -i doc.txt -s sig.bin
